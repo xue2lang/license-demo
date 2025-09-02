@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+spring:
+  redis:
+    host: 127.0.0.1     # Redis 地址
+    port: 6379          # 默认端口
+    password:           # 密码
+    database: 0         # Redis DB编号
+
+
+license:
+  private-key:
+    keystore-path: /Users/kaka/license_keys/privateKeys.keystore
+    alias: privateKey
+    store-pass: pubwd123456
+    key-pass: priwd123456
+
+  public-key:
+    cer-path: /Users/kaka/license_keys/certfile.cer
+
+  client:
+    license-path: /Users/kaka/licenses/DOCX-TST-202509-001.lic
+    public-key-path: /Users/kaka/license_keys/certfile.cer
+    time-record-path: /Users/kaka/licenses/last-startup-time.dat
+
+  time-secret: mySuperSecretKey
+
+  output-path: /Users/kaka/licenses/
