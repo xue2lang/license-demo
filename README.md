@@ -126,3 +126,5 @@ MIT License
 ## 联系交流
 
 欢迎提 Issue / PR
+
+[更多介绍](https://juejin.cn/post/7545015409617961023?utm_source=gold_browser_extension#heading-38)
